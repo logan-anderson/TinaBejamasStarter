@@ -1,5 +1,5 @@
 import { node, bool } from "prop-types"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import { InlineForm } from "react-tinacms-inline"
 import { useGithubToolbarPlugins, useGithubJsonForm } from "react-tinacms-github"
 import { ThemeProvider } from "styled-components"
@@ -16,15 +16,23 @@ const Layout = ({ children, showDocsSearcher, splitView, preview, form }) => {
   useGithubToolbarPlugins()
   const cms = useCMS()
 
-  let file = require("../../content/styles.json")
+  let [file, setFile] = useState({ data: require("../../content/styles.json") })
 
   useEffect(() => {
-    async function fetchData() {
-      const res = await cms.api.github.fetchFile("content/styles.json")
-      return JSON.parse(res.decodedContent)
-    }
     if (preview) {
-      file = fetchData()
+      console.log("file being updated")
+      cms.api.github.fetchFile("content/styles.json", null).then((response) => {
+        setFile({
+          sha: response.sha,
+          fileRelativePath: "content/styles.json",
+          data: JSON.parse(response.decodedContent || ""),
+        })
+      })
+      // setFile({
+      //   sha: null,
+      //   fileRelativePath: "content/styles.json",
+      //   data: require("../../content/styles.json")
+      // })
     }
   }, [preview])
 
@@ -43,8 +51,14 @@ const Layout = ({ children, showDocsSearcher, splitView, preview, form }) => {
         name: "description",
         component: "text",
       },
+      {
+        name: "title",
+        component: "text",
+      },
     ],
   }
+
+  console.log(file)
   const [data, stylesForm] = useGithubJsonForm(file, formOptions)
 
   const currentTheme = getTheme(preview)
