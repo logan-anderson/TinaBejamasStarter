@@ -5,7 +5,7 @@ import { GitClient, GitMediaStore } from "@tinacms/git-client"
 import { useGithubEditing, GithubClient, TinacmsGithubProvider } from "react-tinacms-github"
 import { Normalize } from "styled-normalize"
 import { ThemeProvider } from "styled-components"
-import theme from "../utils/theme"
+import getTheme from "../utils/theme"
 import { myGitHubClient } from "../utils/githubClient"
 // eslint-disable-next-line no-undef
 require("typeface-source-code-pro")
@@ -53,11 +53,11 @@ class MyApp extends App {
           exitEditMode={exitEditMode}
           error={pageProps.error}
         >
-          <ThemeProvider theme={theme}>
-            {/* <EditLink editMode={pageProps.preview} /> */}
-            <Normalize />
-            <Component {...pageProps} />
-          </ThemeProvider>
+          {/* <ThemeProvider theme={getTheme(pageProps.preview, pageProps.previewProps)}> */}
+          {/* <EditLink editMode={pageProps.preview} /> */}
+          <Normalize />
+          <Component {...pageProps} />
+          {/* </ThemeProvider> */}
         </TinacmsGithubProvider>
       </TinaProvider>
     )
