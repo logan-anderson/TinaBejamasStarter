@@ -147,6 +147,12 @@
       "children": [
         {
           "type": "link",
+          "slug": "main-doc-1/Main-doc-1.2",
+          "title": "Main doc 1.2",
+          "children": []
+        },
+        {
+          "type": "link",
           "slug": "main-doc-1/Main-doc-1.1",
           "title": "Main doc 1.1",
           "children": []
