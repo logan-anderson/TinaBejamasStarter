@@ -10,6 +10,53 @@
     },
     {
       "type": "link",
+      "key": "deployment",
+      "slug": "deployment",
+      "title": "Deployment",
+      "position": 1,
+      "children": [
+        {
+          "key": "./deployment/basics.md",
+          "slug": "deployment/basics",
+          "type": "link",
+          "title": "Basics"
+        },
+        {
+          "type": "group",
+          "key": "Complement",
+          "title": "Complement",
+          "position": null,
+          "children": [
+            {
+              "key": "./deployment/complement-1.md",
+              "slug": "deployment/complement-1",
+              "type": "link",
+              "title": "Complement Sub 1"
+            },
+            {
+              "key": "./deployment/complement-2.md",
+              "slug": "deployment/complement-2",
+              "type": "link",
+              "title": "Complement Sub 2"
+            },
+            {
+              "key": "./deployment/complement-3.md",
+              "slug": "deployment/complement-3",
+              "type": "link",
+              "title": "Complement Sub 3"
+            },
+            {
+              "key": "./deployment/conplement-4.md",
+              "slug": "deployment/conplement-4",
+              "type": "link",
+              "title": "Complement Sub 4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "link",
       "key": "features",
       "slug": "features",
       "title": "Features",
@@ -90,53 +137,6 @@
           "slug": "deployment/node",
           "title": "Node",
           "children": []
-        }
-      ]
-    },
-    {
-      "type": "link",
-      "key": "deployment",
-      "slug": "deployment",
-      "title": "Deployment",
-      "position": 1,
-      "children": [
-        {
-          "key": "./deployment/basics.md",
-          "slug": "deployment/basics",
-          "type": "link",
-          "title": "Basics"
-        },
-        {
-          "type": "group",
-          "key": "Complement",
-          "title": "Complement",
-          "position": null,
-          "children": [
-            {
-              "key": "./deployment/complement-1.md",
-              "slug": "deployment/complement-1",
-              "type": "link",
-              "title": "Complement Sub 1"
-            },
-            {
-              "key": "./deployment/complement-2.md",
-              "slug": "deployment/complement-2",
-              "type": "link",
-              "title": "Complement Sub 2"
-            },
-            {
-              "key": "./deployment/complement-3.md",
-              "slug": "deployment/complement-3",
-              "type": "link",
-              "title": "Complement Sub 3"
-            },
-            {
-              "key": "./deployment/conplement-4.md",
-              "slug": "deployment/conplement-4",
-              "type": "link",
-              "title": "Complement Sub 4"
-            }
-          ]
         }
       ]
     }
