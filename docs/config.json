@@ -144,7 +144,14 @@
       "type": "link",
       "slug": "main-doc-1",
       "title": "Main Doc 1",
-      "children": []
+      "children": [
+        {
+          "type": "link",
+          "slug": "main-doc-1/Main-doc-1.1",
+          "title": "Main doc 1.1",
+          "children": []
+        }
+      ]
     }
   ]
 }
