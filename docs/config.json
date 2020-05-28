@@ -152,6 +152,12 @@
           "children": [
             {
               "type": "link",
+              "slug": "main-doc-1/Main-doc-1.3",
+              "title": "Main doc 1.3",
+              "children": []
+            },
+            {
+              "type": "link",
               "slug": "main-doc-1/Main-doc-1.2",
               "title": "Maon doc 1.2",
               "children": []
