@@ -69,12 +69,6 @@
           "children": [
             {
               "type": "link",
-              "slug": "features/Windows-5",
-              "title": "Windows 5",
-              "children": []
-            },
-            {
-              "type": "link",
               "slug": "features/win-1",
               "title": "Windows 1",
               "children": []
@@ -95,6 +89,12 @@
               "type": "link",
               "slug": "features/Windows-4",
               "title": "Windows 4",
+              "children": []
+            },
+            {
+              "type": "link",
+              "slug": "features/Windows-5",
+              "title": "Windows 5",
               "children": []
             }
           ]
