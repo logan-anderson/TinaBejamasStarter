@@ -4,7 +4,14 @@
       "type": "link",
       "slug": "main-doc-3",
       "title": "Main Doc 3",
-      "children": []
+      "children": [
+        {
+          "type": "link",
+          "slug": "main-doc-3/Main-Doc-3.1",
+          "title": "Main Doc 3.1",
+          "children": []
+        }
+      ]
     },
     {
       "type": "link",
