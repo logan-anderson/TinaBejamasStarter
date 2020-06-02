@@ -2,6 +2,12 @@
   "config": [
     {
       "type": "link",
+      "slug": "asdf",
+      "title": "asdf",
+      "children": []
+    },
+    {
+      "type": "link",
       "key": "getting-started",
       "slug": "getting-started",
       "title": "Getting Started",
