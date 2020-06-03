@@ -7,6 +7,12 @@
       "children": [
         {
           "type": "link",
+          "slug": "asdf4/test",
+          "title": "test",
+          "children": []
+        },
+        {
+          "type": "link",
           "slug": "asdf4/asdf4.1",
           "title": "asdf4.1",
           "children": []
