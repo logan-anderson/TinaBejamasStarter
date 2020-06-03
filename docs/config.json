@@ -2,6 +2,12 @@
   "config": [
     {
       "type": "link",
+      "slug": "asdf4",
+      "title": "asdf4",
+      "children": []
+    },
+    {
+      "type": "link",
       "slug": "asdf3",
       "title": "asdf3",
       "children": []
