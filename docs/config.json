@@ -4,7 +4,14 @@
       "type": "link",
       "slug": "asdf4",
       "title": "asdf4",
-      "children": []
+      "children": [
+        {
+          "type": "link",
+          "slug": "asdf4/asdf4.1",
+          "title": "asdf4.1",
+          "children": []
+        }
+      ]
     },
     {
       "type": "link",
