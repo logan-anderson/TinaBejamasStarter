@@ -5,7 +5,15 @@
       "slug": "main-doc-page",
       "title": "Main doc page",
       "id": "jxmsg2gru",
-      "children": []
+      "children": [
+        {
+          "type": "link",
+          "slug": "main-doc-page/Child-Doc-page",
+          "title": "Child Doc page",
+          "id": "773v14tv5",
+          "children": []
+        }
+      ]
     },
     {
       "type": "link",
