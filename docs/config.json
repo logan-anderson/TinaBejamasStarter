@@ -2,6 +2,13 @@
   "config": [
     {
       "type": "link",
+      "slug": "deployment",
+      "title": "new doc page",
+      "children": [],
+      "id": "16tqsacih"
+    },
+    {
+      "type": "link",
       "slug": "main-doc-page",
       "title": "Main doc page",
       "id": "jxmsg2gru",
