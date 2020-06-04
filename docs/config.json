@@ -2,6 +2,13 @@
   "config": [
     {
       "type": "link",
+      "slug": "main-doc-page",
+      "title": "Main doc page",
+      "id": "jxmsg2gru",
+      "children": []
+    },
+    {
+      "type": "link",
       "key": "getting-started",
       "slug": "getting-started",
       "title": "Getting Started",
